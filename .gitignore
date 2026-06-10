@@ -10,6 +10,11 @@ coverage/
 terraform.tfstate
 terraform.tfstate.backup
 
+frontend/node_modules/
+backend/node_modules/
+
+zuri-market/
+
 # Logs
 
 *.log
