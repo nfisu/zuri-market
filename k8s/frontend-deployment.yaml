@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zuri-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: zuri-frontend
+  template:
+    metadata:
+      labels:
+        app: zuri-frontend
+    spec:
+      containers:
+        - name: zuri-frontend
+          image: nfisu/zuri-frontend:latest
+          ports:
+            - containerPort: 4173
