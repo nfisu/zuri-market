@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.env
+.env.local
+coverage/
+
+# Terraform
+
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
