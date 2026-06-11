@@ -4,7 +4,7 @@ function App() {
 const [data, setData] = useState(null);
 
 useEffect(() => {
-fetch("http://13.40.221.165:30050")
+fetch("http://16.60.179.30:30202")
 .then((response) => response.json())
 .then((result) => setData(result))
 .catch((error) => console.error(error));

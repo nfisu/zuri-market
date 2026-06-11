@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 app.get("/", (req, res) => {
 res.json({
 message: "Zuri Market Backend API Running",
-store: process.env.STORE_NAME
+store: "Zuri Market Store"
 });
 });
 

@@ -1,0 +1,26 @@
+frontend:
+  image:
+    repository: nfisu/zuri-market-frontend
+    tag: latest
+    pullPolicy: Always
+
+  replicaCount: 2
+
+  service:
+    type: NodePort
+    port: 80
+    targetPort: 3000
+    nodePort: 30080
+
+backend:
+  image:
+    repository: nfisu/zuri-market-backend
+    tag: latest
+    pullPolicy: Always
+
+  replicaCount: 2
+
+  service:
+    type: ClusterIP
+    port: 5000
+    targetPort: 5000
