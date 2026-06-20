@@ -84,12 +84,10 @@ nfisu/zuri-frontend:latest
 
 ## Frontend
 
-http://13.40.221.165:30388
-
+http://35.179.176.115:30388
 ## Backend
 
-http://13.40.221.165:30050
-
+http://35.179.176.115:30050
 ---
 
 # Kubernetes Deployment
